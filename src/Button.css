@@ -1,0 +1,18 @@
+button{
+    background-color: #222242;
+    padding: 10px 38px;
+    border: 1px solid #A9A9A9;
+    border-radius: 28px;
+    color: #fff;
+    transition: all .2s ease;
+    outline: 0;
+}
+button:not(:last-child){
+    margin-right: 20px;
+}
+button:hover
+{
+    border-color: #F6B400;
+    color: #F6B400;
+    box-shadow: 0px 4px 27px -12px #F6B400;
+} 
