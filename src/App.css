@@ -1,5 +1,4 @@
- 
-.wrapper{
+ .wrapper{
     position: relative;
     top: 50%;
     left: 50%;
@@ -17,20 +16,22 @@
     margin-bottom: 120px;
    
 }
+
 .wrapper p::before{
     content: '';
     position: absolute;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     background-color: #151538;
     z-index: -1;
     border-radius: 50%;
-	left: -50%;
-    top: -118%;
+	left: -23%;
+    top: -170%;
     animation-name: shine;
     animation-duration: 4s;
     animation-iteration-count: infinite;
 }
+
 @keyframes shine{
     0%,100%{
         box-shadow: 0px 0px 32px -12px rgba(246, 180, 0, .5);
